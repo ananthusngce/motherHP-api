@@ -3,10 +3,10 @@ pandas
 requests
 Flask-RESTful
 scikit-learn
-scipy
+scipy=
 simplejson
 joblib
 numpy
 gunicorn
 xgboost
-RandomForestClassifier
+sklearn
