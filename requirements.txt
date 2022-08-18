@@ -8,5 +8,4 @@ simplejson
 joblib
 numpy
 gunicorn
-xgboost
-sklearn
+sklearn.ensemble
