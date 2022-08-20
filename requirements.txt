@@ -24,4 +24,3 @@ urllib3
 Werkzeug
 wincertstore
 sklearn
-reqparse
