@@ -19,8 +19,9 @@ def predict():
 			json = request.get_json()	 
 			model_columns = joblib.load("model_cols.pkl")
 			temp=list(json[0].values())
-			vals=np.array(temp)
-			prediction = lr.predict(vals)
+			vals=np.asarray(temp)
+			input_data_reshaped = vals.reshape(1,-1)
+			prediction = lr.predict(input_data_reshaped)
 			print("here:",prediction)        
 			return jsonify({'prediction': str(prediction[0])})
 
