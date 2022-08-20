@@ -23,3 +23,8 @@ statsmodels
 urllib3
 Werkzeug
 wincertstore
+sklearn
+traceback
+flask_restful
+reqparse
+
