@@ -24,5 +24,4 @@ urllib3
 Werkzeug
 wincertstore
 sklearn
-flask_restful
 reqparse
